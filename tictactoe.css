@@ -1,16 +1,73 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ffffff, black);
+  height: 100vh;
+}
+
 .jumbotron {
-  margin: 5% auto;
-  margin-left: 43%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 3%;
+  font-size: 80px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 td {
   height:150px;
   width:150px;
   text-align: center;
-  border: 5px solid black;
   font-size: 100px;
+  color: rgb(133, 221, 61);
+  font-family: 'Fredericka the Great', cursive;
 }
 
 table {
   margin: auto auto;
+  padding-top: 2%;
+}
+
+.bottomBorder {
+  border-bottom: solid 3px white;
+}
+
+.leftBorder {
+  border-left: solid 3px white;
+}
+
+.button {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: rgb(133, 221, 61);
+  color: white;
+  box-shadow: 0 0 40px 40px rgb(133, 221, 61) inset, 0 0 0 0 rgb(133, 221, 61);
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 rgb(133, 221, 61) inset, 0 0 10px 4px rgb(133, 221, 61);
+  color: black;
 }
